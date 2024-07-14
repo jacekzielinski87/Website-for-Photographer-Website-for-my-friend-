@@ -15,9 +15,9 @@ const ContactForm = () => {
 
   return (
     <>
-    <section className='text-white m-8 pb-4 '>
-      <h2 className='text-3xl font-Lexend m-6 flex justify-center'>Zapraszam do kontaktu</h2>
-      <form onSubmit={handleSubmit} className='flex items-end justify-around text-white'>
+    <section className='text-white'>
+      <h2 className='text-3xl font-Lexend m-2 flex justify-center'>Zapraszam do kontaktu</h2>
+      <form onSubmit={handleSubmit} className='flex items-center justify-around text-white'>
         <label className=' font-Lexend'>
           Imię:
           <input className='mx-2 text-white bg-gradient-to-r from-zinc-900 via-zinc-900 to-zinc-900'
@@ -41,11 +41,11 @@ const ContactForm = () => {
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
         </label>
-        <div className=''>
-          <button type="submit" className='bg-green-500/90 hover hover:bg-green-400/90 p-2 font-Lexend text-xl w-24 h-12 rounded-lg mr-16'>Wyślij</button>
-        </div>
       </form>
     </section>
+      <div className='text-white flex justify-center items-center my-4'>
+          <button type="submit" className='bg-green-600/80 hover hover:bg-green-500/90 font-Lexend text-xl w-24 h-12 rounded-lg'>Wyślij</button>
+      </div>
     </>
   );
 };

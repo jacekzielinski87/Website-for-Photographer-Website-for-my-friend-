@@ -19,7 +19,7 @@ const Gallery = () => {
 return (
     <>
     <Header/>
-    <section className="flex justify-around m-8">
+    <section className="flex justify-around m-8 text-4xl">
       <div>
         <img className='border-4 border-slate-300 rounded-xl opacity-55 transition duration-300 ease-in-out hover:opacity-100' src={Photo1}/>
         <p className='text-white flex justify-center text-2xl'>Uchwyć wspomnienia</p>
