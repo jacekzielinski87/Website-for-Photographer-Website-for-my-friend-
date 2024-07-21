@@ -25,15 +25,15 @@ const Button = styled.button`
 `;
 
 const ToggleButton = styled.button`
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  position: absolute;
+  top: 50px;
+  right: 85px;
   background-color: #ff6347;
   border: none;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 1001;
 `;
 

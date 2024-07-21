@@ -2,7 +2,7 @@
 
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import Czarny from "../assets/ManiekNoBg.png";
+import Czarny from "../assets/Maniek.jpg";
 import Header from './Header';
 import ContactForm from './Contactform';
 import PrivacyBanner from './PrivacyBanner';
@@ -23,7 +23,7 @@ const About = () => {
       Jestem otwarty na różnorodne projekty i pomysły.<br/>
       <br/>
       Razem uchwycimy Twoje najpiękniejsze chwile!</p>
-    <img src={Czarny} alt='Photo Maniek' className=''/>
+    <img src={Czarny} alt='Photo Maniek' className='mx-20'/>
     </section>
     <ContactForm/>
     <PrivacyBanner/>
